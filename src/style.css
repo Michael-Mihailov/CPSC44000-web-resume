@@ -6,3 +6,33 @@ p {
     margin: 0.75rem 0;
     line-height: 1;
 }
+
+section {
+    margin-bottom: 1rem;
+}
+
+section h2 {
+    font-size: 1.2rem;
+    font-weight: bold;
+    text-align: center;
+    text-transform: uppercase;
+    border-bottom: 1px solid black;
+    padding-bottom: 0.25rem;
+    margin-bottom: 0.5rem;
+}
+
+
+@media print {
+    .card {
+        box-shadow: none !important;
+        border: none !important;
+    }
+
+    .PDF-Version {
+        display: none !important;
+    }
+
+    .container {
+        max-width: none !important;
+    }
+}
